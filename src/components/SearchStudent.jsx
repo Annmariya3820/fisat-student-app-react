@@ -4,7 +4,7 @@ import Navbar from './Navbar'
 const SearchStudent = () => {
     const [data,setData]=useState(
         {
-            "name":""
+            "firstname":""
         }
     )
     const inputHandler=(event)=>{
@@ -23,7 +23,7 @@ const SearchStudent = () => {
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
 
                     <label htmlFor="" className="form-label">Name</label>
-                    <input type="text" className="form-control" name='name' value={data.name} onChange={inputHandler} />
+                    <input type="text" className="form-control" name='firstname' value={data.firstname} onChange={inputHandler} />
 
                     </div>
                     <div className="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
